@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsGo", "FsGo\FsGo.fsproj", "{55986C37-9646-4E3D-B954-C4F5CF692262}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsGo.UnitTest", "FsGo.UnitTest\FsGo.UnitTest.fsproj", "{C5F6BE22-C866-43C0-8D9B-5390B77099B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57E51511-7C9D-47A9-A02C-FF0BB304B900}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55986C37-9646-4E3D-B954-C4F5CF692262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55986C37-9646-4E3D-B954-C4F5CF692262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55986C37-9646-4E3D-B954-C4F5CF692262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55986C37-9646-4E3D-B954-C4F5CF692262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F6BE22-C866-43C0-8D9B-5390B77099B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F6BE22-C866-43C0-8D9B-5390B77099B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F6BE22-C866-43C0-8D9B-5390B77099B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F6BE22-C866-43C0-8D9B-5390B77099B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
